@@ -1,4 +1,4 @@
-# avr_programmer_adapter
+# Arduino/AVR programmer adapter
 An impromptu adapter to program the ATMega 328P on an Arduino Nano through its normal socket rather than the ICSP header.
 
 I got a Maker Nano the other day (https://www.cytron.io/p-maker-nano-simplifying-arduino-for-projects) and while I like the fact it has extra stuff on the board, like LEDs and a button, this comes at the expense of not having an ICSP header. I needed to burn a new bootloader into the Nano, so I improvised an adapter with a perfboard. A bit crude, but does the job. Schematic to follow.
