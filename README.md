@@ -1,7 +1,9 @@
 # Arduino/AVR programmer adapter
 An impromptu adapter to program the ATMega 328P on an Arduino Nano through its normal socket rather than the ICSP header.
 
-I got a Maker Nano the other day (https://www.cytron.io/p-maker-nano-simplifying-arduino-for-projects) and while I like the fact it has extra stuff on the board, like LEDs and a button, this comes at the expense of not having an ICSP header. I needed to burn a new bootloader into the Nano, so I improvised an adapter with a perfboard. A bit crude, but does the job. Schematic to follow.
+I got a Maker Nano the other day (https://www.cytron.io/p-maker-nano-simplifying-arduino-for-projects) and while I like the fact it has extra stuff on the board, like LEDs and a button, this comes at the expense of not having an ICSP header. I needed to burn a new bootloader into the Nano, so I improvised an adapter with a perfboard. A bit crude, but does the job.
+![nano](https://github.com/avlunen/avr_programmer_adapter/assets/11347973/ee464485-9bf4-480b-addf-e83fa3609ce2)
+![nano-sch](https://github.com/avlunen/avr_programmer_adapter/assets/11347973/0b794087-a986-4da0-a198-335f76ea4eaa)
 
 Photos show regular Arduino Nano (albeit a cheap clone) without header, for testing. Lower holes in the ZIF socket not needed. Arduino has 30 pins, and I could only find ZIF sockets with either 28 or 32 pins.
 
